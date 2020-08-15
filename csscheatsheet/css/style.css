@@ -1,0 +1,116 @@
+
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    line-height:1.6em;
+}
+.container{
+    width:80%;
+    margin:auto;
+}
+.clr{
+    clear: both;
+}
+.box-1{
+    background-color:black;
+    color:white;
+    border:5px red solid;
+    border-width:3px;
+    border-bottom-width:7px;
+    padding:20px;
+    margin-top:20px;
+    
+
+}
+.box-1 h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform:uppercase;
+    text-decoration:underline;
+    letter-spacing:0.2m;
+    word-spacing:2m;
+}
+.box-2{
+    background-color:gray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border:7px black solid;
+    padding-left: 20px;
+    
+    
+}
+.categories{
+    border:1px brown solid;
+    padding:10px;
+}
+.categories h2{
+    text-align:center;
+
+}
+.categories ul{
+    padding:7px;
+    list-style:square;
+    
+
+}
+a{
+    color:black;
+    
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:green;
+}
+a:visited{
+    color:rgb(10, 10, 10);
+}
+.categories li{
+    padding-bottom:7px;
+    border-bottom:dotted rebeccapurple;
+}
+.my-form{
+    padding:20px;
+}
+.my-form .form-group{
+    padding-bottom:12px;
+}
+label{
+    display:block;
+}
+input[type="text"],textarea{
+    padding:8px;
+    width:100%;
+    border:2px black solid;
+}
+.myform .button{
+    border:3px black solid;
+    background-color: rgb(10, 10, 10);
+    padding:5px;
+    color:white;
+}
+.block{
+    float:left;
+    width:33.3%;
+    border:1px red solid;
+    padding:10px;
+    box-sizing:border-box;
+}
+#main-block{
+    float:left;
+    width: 70%;
+    box-sizing: border-box;
+
+
+}
+#sidebar{
+    float:right;
+    width:30%;
+    background-color:black;
+    color:white;
+    padding:15px;
+    box-sizing: border-box;
+
+
+
+}
